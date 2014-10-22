@@ -1,0 +1,20 @@
+{
+  "name": "push-branch",
+  "version": "0.1.0",
+  "description": "Make a git push command on the current branch",
+  "author": "Corey Kahler <corey@ckplusplus.com>",
+  "license": "MIT",
+  "main": "push-branch.js",
+  "dependencies": {
+    "git-rev": "0.2.1",
+    "chalk": "0.5.1",
+    "exec": "0.1.2"
+  },
+  "bin": {
+    "push-branch": "./bin/push-branch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
