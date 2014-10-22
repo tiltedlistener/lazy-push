@@ -4,6 +4,8 @@ Command line utility for pushing to git based on the current branch. Helps push 
 
 ## Installation
 
+(COMING SOON)
+
     $ npm install -g push-branch
 
 ## Usage
