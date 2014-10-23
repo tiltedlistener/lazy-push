@@ -1,6 +1,6 @@
 {
   "name": "lazy-push",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make a git, add, commit and push command on the current branch",
   "author": "Corey Kahler <corey@ckplusplus.com>",
   "license": "MIT",

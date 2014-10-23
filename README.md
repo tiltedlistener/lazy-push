@@ -6,8 +6,6 @@ Works best on branch by issue to handle rebase and other management on key branc
 
 ## Installation
 
-(COMING SOON)
-
     $ npm install -g lazy-push
 
 ## Usage
