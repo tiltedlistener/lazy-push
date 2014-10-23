@@ -36,6 +36,7 @@ function addAllToGit(msg) {
 ///////////////////////////////////////////////////////////
 function commitWithMessage(msg) {
   var messageString = 'git commit -m "' + msg + '"';
+
   exec(messageString, function(error, out, code) {
       if (err instanceof Error) {
         err(error);
@@ -66,7 +67,7 @@ function pushToCurrentBranch() {
 ///////////////////////////////////////////////////////////
 function main() {
   var msg = process.argv.slice(2);
-  if (!msg || msg == null) {
+  if (!msg || (msg + "").trim().length == 0) {
     err('You must include a commit message');
     return;
   }
