@@ -66,7 +66,7 @@ function pushToCurrentBranch() {
 ///////////////////////////////////////////////////////////
 function main() {
   var msg = process.argv.slice(2);
-  if (!msg) {
+  if (!msg || msg == null) {
     err('You must include a commit message');
     return;
   }

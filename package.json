@@ -1,20 +1,20 @@
 {
-  "name": "push-branch",
+  "name": "lazy-push",
   "version": "0.1.0",
-  "description": "Make a git push command on the current branch",
+  "description": "Make a git, add, commit and push command on the current branch",
   "author": "Corey Kahler <corey@ckplusplus.com>",
   "license": "MIT",
-  "main": "push-branch.js",
+  "main": "lazy-push.js",
   "dependencies": {
     "git-rev": "0.2.1",
     "chalk": "0.5.1",
     "exec": "0.1.2"
   },
   "bin": {
-    "push-branch": "./bin/push-branch"
+    "lazy-push": "./bin/lazy-push"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:tiltedlistener/push-branch.git"
+    "url": "git@github.com:tiltedlistener/lazy-push.git"
   }
 }
